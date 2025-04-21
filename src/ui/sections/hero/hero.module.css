@@ -1,0 +1,28 @@
+.hero{
+    background-image: url('../../../../public/images/hero/backgroundDots.svg'),url('../../../../public/images/hero/desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 1200px auto, 456px 560px;
+    background-position: bottom 0 left calc(50% + 8px), bottom 0 right calc(50% - 300px);
+    padding-bottom: 72px;
+
+}
+
+.buttonBlock{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.content{
+    display: flex;
+    gap: 20px;
+
+    flex-direction: column;
+}
+
+.contentBlock{
+    margin-top: 45px;
+    display: flex;
+    align-items:center
+}

@@ -1,0 +1,39 @@
+.section{
+    height:1053px;
+    width:100%;
+    background-color: white;
+    background-image: url('../../../../public/images/products/backgroundIceCream.png');
+    background-repeat: no-repeat;
+    padding-top: 65px;
+    /* background-size: 100% 1053px; */
+}
+
+.title{
+    margin: 0;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);
+    margin-top: 20px;
+    
+}
+
+.subtitle{
+    composes: title;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 0.04em;
+    margin: 0;
+
+}
+
+.block{
+    display: flex;
+    gap: 29px;
+    /* margin: 0 auto; */
+    justify-content: center;
+    margin-top: 300px;
+}

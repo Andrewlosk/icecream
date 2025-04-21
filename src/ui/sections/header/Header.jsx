@@ -19,7 +19,7 @@ export default function Header() {
                 </nav>
 
                 <Button arrow={true} variant='primary'>Buy now</Button>
-                <Button arrow={true} variant='outline'>Buy now</Button>
+                {/* <Button arrow={true} variant='outline'>Buy now</Button> */}
 
             </div>
         </header>
